@@ -1,0 +1,43 @@
+//============================================================================
+// Name        : stars.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int rows;
+
+     cout << "Enter nubmber of rows:" << endl;
+     cin >> rows ;
+
+     for (int i = rows;  i >=1;  i--)
+     {
+    	 for (int j = 1; j<=i; j++ )
+    	 {
+    		 cout << "*";
+
+    	 }
+
+    	 cout << "\n" << endl;
+     }
+
+
+
+     for (int i = 1;  i <=rows;  i++)
+     {
+    	 for (int j = 1; j<=i; j++ )
+    	 {
+    		 cout << "*";
+
+    	 }
+
+    	 cout << "\n" << endl;
+     }
+    return 0;
+}
